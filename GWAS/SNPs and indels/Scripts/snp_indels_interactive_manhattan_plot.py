@@ -6,9 +6,9 @@ import plotly.io as pio
 from Bio import SeqIO
 import os
 
-# Set data folder path (relative)
-data_folder = os.path.join(os.path.dirname(__file__), "../data")
-
+# Set data folder relative to script location
+script_dir = os.path.dirname(os.path.abspath(__file__))  # folder where this script is
+data_folder = script_dir  # assuming data files are in the same folder as the script
 
 # Load GWAS SNP results
 snp_file = os.path.join(data_folder, "pyseer_results_coresnp_fdr_annotation.txt")
