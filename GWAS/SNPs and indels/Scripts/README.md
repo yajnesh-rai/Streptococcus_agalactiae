@@ -21,9 +21,12 @@ pip install pandas numpy plotly biopython
 - [pyseer_results_indels_fdr_annotation.txt](../Data/pyseer_results_indels_fdr_annotation.txt)                                          
 - [ref_NZ_CP012419.gb](../Data/ref_NZ_CP012419.gb)  
 - [snp_indels_interactive_manhattan_plot.py](./snp_indels_interactive_manhattan_plot.py)
+
+**Note:** Keep all files together — the script gets lonely otherwise!
 #### Usage
+navigate to the folder containing the script and data files, then run:
 `````python
-python interactive_manhattan_plot.py
+python snp_indels_interactive_manhattan_plot.py
 `````
 ## Kmers
 ### Visualize interactive Manhattan plots
@@ -32,11 +35,10 @@ python interactive_manhattan_plot.py
 - pandas
 - numpy
 - plotly
-- biopython
 
 Install with:
 ```python
-pip install pandas numpy plotly biopython
+pip install pandas numpy plotly
 ```
 #### Files
 - [kmers_vs_ref_aquaticclade1_filtered.tsv](../../Kmers/Data/kmers_vs_ref_aquaticclade1_filtered.tsv)
@@ -46,3 +48,15 @@ pip install pandas numpy plotly biopython
 - [ref_aquaticclade2_NC_018646.gb](../../Kmers/Data/ref_aquaticclade2_NC_018646.gb)
 - [ref_clinical_NC_007432.gb](../../Kmers/Data/ref_clinical_NC_007432.gb)
 #### Usage
+**Note:** Again. Dont breakapart the files — the script will start crying!
+#### Usage
+navigate to the folder containing the script and data files, then run it for all three references from each of the clades:
+`````python
+python kmers_interactive_manhattan_plot_clinicalclade.py
+`````
+`````python
+python kmers_interactive_manhattan_plot_aquaticclade1.py
+`````
+`````python
+python kmers_interactive_manhattan_plot_aquaticclade2.py
+`````
