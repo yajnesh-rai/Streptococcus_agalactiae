@@ -41,13 +41,13 @@ Install with:
 pip install pandas numpy plotly
 ```
 #### Files
-- [kmers_vs_ref_aquaticclade1_filtered.tsv](../../Kmers/Data/kmers_vs_ref_aquaticclade1_filtered.tsv)
-- [kmers_vs_ref_aquaticclade2_filtered.tsv](../../Kmers/Data/kmers_vs_ref_aquaticclade2_filtered.tsv)
-- [kmers_vs_ref_clinicalclade_filtered.tsv](../../Kmers/Data/kmers_vs_ref_clinicalclade_filtered.tsv)
-- [ref_aquaticclade1_NZ_CP016501.gb](../../Kmers/Data/ref_aquaticclade1_NZ_CP016501.gb)
-- [ref_aquaticclade2_NC_018646.gb](../../Kmers/Data/ref_aquaticclade2_NC_018646.gb)
-- [ref_clinical_NC_007432.gb](../../Kmers/Data/ref_clinical_NC_007432.gb)
-#### Usage
+- [kmer_results_fdr_with_blast_gene_clinicalclade.csv](../../Kmers/Data/kmer_results_fdr_with_blast_gene_clinicalclade.csv)
+- [kmer_results_fdr_with_blast_gene_aquaticclade1.csv](../../Kmers/Data/kmer_results_fdr_with_blast_gene_aquaticclade1.csv)
+- [kmer_results_fdr_with_blast_gene_aquaticclade2.csv](../../Kmers/Data/kmer_results_fdr_with_blast_gene_aquaticclade2.csv)
+- [kmers_interactive_manhattan_plot_clinicalclade.py](../../Kmers/Scripts/kmers_interactive_manhattan_plot_clinicalclade.py)
+- [kmers_interactive_manhattan_plot_aquaticclade1.py](../../Kmers/Scripts/kmers_interactive_manhattan_plot_aquaticclade1.py)
+- [kmers_interactive_manhattan_plot_aquaticclade2.py](../../Kmers/Scripts/kmers_interactive_manhattan_plot_aquaticclade2.py)
+
 **Note:** Again. Dont breakapart the files — the script will start crying!
 #### Usage
 navigate to the folder containing the script and data files, then run it for all three references from each of the clades:
